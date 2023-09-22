@@ -1,0 +1,9 @@
+.container {
+    /* background-image: linear-gradient(to right top, #051937, #09162e, #0b1225, #0a0e1d, #070915); */
+    background-size: cover;
+    min-height: 100vh !important;
+    background-image: linear-gradient(to right top, #051021, #060e1e, #070d1b, #070b18, #070915);
+    /* background-image: url('https://wallpaperaccess.com/full/4635743.jpg'); */
+    /* background-image: url('https://www.et-ilc.com/wp-content/uploads/2020/11/fast-worward.jpg'); */
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRASPHTn8uWuSJWk08BcGlu5clLj_XAwtPdqQ&usqp=CAU');
+}

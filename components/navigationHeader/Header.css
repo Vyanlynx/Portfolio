@@ -1,0 +1,13 @@
+.mainContainer {
+    color: white;
+}
+
+section>nav {
+    cursor: pointer;
+}
+nav{
+    transition: color 1s;
+}
+nav:hover{
+    color: #55fff9;
+}

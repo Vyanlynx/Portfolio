@@ -1,0 +1,55 @@
+.btn_talk {
+    background-color: rgb(48, 203, 130);
+    padding: 7px 17px;
+    border-radius: 8px;
+    transition: color 1s;
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+    border: 1px solid rgb(0, 255, 17);
+}
+
+.contmain {
+    height: 30em;
+    /* background-image: url('https://wallpaperaccess.com/full/4635743.jpg'); */
+}
+
+.cont1 {
+    width: 70%;
+}
+
+:root {
+    --color-1: #ffc400;
+    --color-2: #88ff00;
+    --color-3: #11f15c;
+    --color-4: #ff0496;
+    --color-5: #099de7;
+}
+.fnt{
+    font-size: 25px;
+    font-weight: 700;
+    color: aqua;
+}
+.nameclr {
+    text-transform: uppercase;
+    background: linear-gradient(219deg,
+            var(--color-1) 19%,
+            var(--color-2) 20%, var(--color-2) 39%,
+            var(--color-3) 40%, var(--color-3) 59%,
+            var(--color-4) 60%, var(--color-4) 79%,
+            var(--color-5) 80%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    transform: color 2s;
+}
+.stack90{
+    margin: 1.5rem 0;
+    font-size: 13px;
+}
+.socialMedia45{
+    transform: translateY(4em);
+}
+.cont2{
+    /* width: 50%; */
+}
