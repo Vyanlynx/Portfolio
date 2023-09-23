@@ -14,7 +14,7 @@ export default function MainContent(props: any) {
                 <div className="fnt">
                     <section className=""><span>{props.greet}</span>
                         <div>
-                            <span className="nameclr text-4xl"> I'm </span>
+                            <span className="nameclr text-4xl"> I am </span>
                             <span className="nameclr text-4xl">{props.name}</span>
                         </div>
                     </section>
