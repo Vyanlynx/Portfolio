@@ -14,7 +14,7 @@ export default function MainContent(props: any) {
         let Interval_ = setInterval(() => {
             if (devState >= 2) setDevState(0)
             else if (devState < 2) setDevState(devState + 1)
-        }, 5000)
+        }, 3000)
         return () => clearInterval(Interval_)
     })
 

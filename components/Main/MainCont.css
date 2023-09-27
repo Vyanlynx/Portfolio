@@ -103,7 +103,6 @@
     width: 0px;
     height: 50px;
     transform: skew(-50deg);
-    border: 5px 5px solid red;
     transition: 1s;
     opacity: 0.5;
     box-shadow: 0 0 1em 2rem rgb(207, 237, 241);
