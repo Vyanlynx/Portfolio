@@ -31,7 +31,36 @@
     font-weight: 700;
     color: aqua;
 }
-
+.stack {
+    transform: translate3d(0, 0, 0);
+    animation-name: shakeMe;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes shakeMe {
+    10% {
+        transform: translate3d(0, -4000px, 0);
+    }
+  
+    20%{
+        transform: translate3d(0, 0, 0);
+    }
+  
+    40%{
+        transform: translate3d(0, 0, 0);
+    }
+  
+    60% {
+        transform: translate3d(0, 0, 0);
+    }
+    
+    100% {
+        transform: translate3d(0px, 40px, 0);
+    }
+  }
 .nameclr {
     text-transform: uppercase;
     background: linear-gradient(219deg,
