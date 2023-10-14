@@ -15,7 +15,7 @@ export default function Techs() {
             <div className='flex justify-center txthdr'>My Tech Stacks</div>
             <div className='techContainer'>
                 {Data?.stack?.map((elements: any, index: number) => {
-                    return <Cards
+                    return <Cards key={index}
                         data={elements}
                         icon={StackArr[index]}
                         style_={Data?.Styles}
