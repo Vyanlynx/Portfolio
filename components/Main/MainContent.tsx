@@ -10,13 +10,13 @@ import { useEffect, useState } from "react";
 
 export default function MainContent(props: any) {
     const [devState, setDevState] = useState<number>(0);
-    useEffect(() => {
-        let Interval_ = setInterval(() => {
-            if (devState >= 2) setDevState(0)
-            else if (devState < 2) setDevState(devState + 1)
-        }, 3000)
-        return () => clearInterval(Interval_)
-    })
+    // useEffect(() => {
+    //     let Interval_ = setInterval(() => {
+    //         if (devState >= 2) setDevState(0)
+    //         else if (devState < 2) setDevState(devState + 1)
+    //     }, 3000)
+    //     return () => clearInterval(Interval_)
+    // })
 
     return (
         <div className="text-white flex justify-center items-center contmain">
@@ -28,8 +28,9 @@ export default function MainContent(props: any) {
                             <span className="nameclr text-4xl">{props.name}</span>
                         </div>
                     </section>
-                    <div style={{overflow:"hidden"}}>
-                    <div className="stack">{props.stack[devState]}</div>
+                    <div style={{ overflow: "hidden" }}>
+                        {/* <div className="stack">{props.stack[devState]}</div> */}
+                        <div className="stack2">{props.stack[devState]}</div>
                     </div>
                 </div>
                 <div className="stack90">{props.summary}</div>

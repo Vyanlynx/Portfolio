@@ -1,0 +1,27 @@
+.cardContainer {
+    border: 2px solid rgba(0, 255, 170, 0.608);
+    border-radius: 15px;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+    padding: 20px;
+    color: white;
+    box-shadow: 1px 1px 8px aqua;
+}
+.cardContainer:hover{
+    box-shadow: 2px 3px 20px aqua;
+    cursor: pointer;
+}
+.StackContentLabel {
+    font-size: 14px;
+    word-wrap: normal;
+    padding-top: 10px;
+}
+
+.contHead {
+    font-weight: 600;
+    font-size: 20px;
+    color: aqua;
+}
