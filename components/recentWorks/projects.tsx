@@ -12,7 +12,7 @@ export default function Projects() {
     <div>
       <div>Projects</div>
       {ProjectData?.projects?.map((elements: any, index: number) => {
-        return (<Cards data={elements}
+        return (<Cards key={index} data={elements}
           icon={ProjImages[index]}
           style_={ProjectData?.Styles} />)
       })}
