@@ -1,0 +1,15 @@
+{
+    "projects":[
+        {"name":"Moonkartz", "label":"An full stack e-commerce prototype web application."},
+        {"name":"Vexor", "label":"A Front end ticket booking web application."},
+        {"name":"Moonphasecalculator", "label":"Front end app to find the phase of the Moon in past, present or future."},
+        {"name":"Planner", "label":"Simple Planner web app where data will store locally."}
+    ],
+    "Styles":{
+        "container":"cardContainer",
+        "height":60,
+        "width":60,
+        "contentLabel":"StackContentLabel",
+        "name":"contHead"
+    }
+}

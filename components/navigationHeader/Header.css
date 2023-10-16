@@ -11,3 +11,17 @@ nav{
 nav:hover{
     color: #55fff9;
 }
+.res{
+    position: relative;
+}
+.tabbar{
+    position: absolute;
+    display: flex;
+    color: black;
+}
+.tabpop{
+    background-color: #1d289e;
+    padding: 0.5em 1em 0.8em 1em;
+    margin: 1em 0;
+    border-radius: 10px;
+}

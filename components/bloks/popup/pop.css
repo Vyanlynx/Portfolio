@@ -1,0 +1,13 @@
+.cont{
+    background-color: wheat;
+    position: fixed;
+    height: 80vh;
+    width: 80vw;
+    z-index: 2;
+}
+.cntr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
