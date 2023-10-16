@@ -8,9 +8,11 @@ import { useRouter } from 'next/navigation';
 const HeaderComponent = (): JSX.Element => {
     const [inputVal, setInputVal] = useState<string>('');
     const router = useRouter()
-    const verFunction = () => {
+    const verFunction = (e:any) => {
+        setInputVal(e.target.value)
         let date = new Date();
         let pass = `v${date.getHours()}${date.getMinutes()}${date.getDay()}!@#$%`
+        console.log(pass)
         if (inputVal === pass) {
             if (window) window?.sessionStorage?.setItem('tokenz', pass)
             router.push('/resume')
@@ -18,7 +20,6 @@ const HeaderComponent = (): JSX.Element => {
             console.log("TRY AGAIN")
         }
     }
-
     return <>
         <div className='text-white flex justify-around items-center py-10'>
             <header className='cursor-pointer'>
@@ -35,8 +36,7 @@ const HeaderComponent = (): JSX.Element => {
                         <div className='tabpop'>
                             <div style={{ color: "white", paddingBottom: "0.3em" }}>Enter the key:</div>
                             <div style={{ display: "flex" }}>
-                                <input value={inputVal} onChange={(e) => setInputVal(e.target.value)} />
-                                <button onClick={verFunction}>Submit</button>
+                                <input value={inputVal} onChange={verFunction} />
                             </div>
                         </div>
                     </div>

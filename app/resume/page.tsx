@@ -8,12 +8,12 @@ export default function Page() {
     useEffect(() => {
         if (window) {
             let date = new Date();
-            let pass = `v${date.getHours()}${date.getMinutes()}${date.getDay()}!@#$%`    
+            let pass = `v${date.getHours()}${date.getMinutes()}${date.getDay()}!@#$%`
             let test = window.sessionStorage.getItem('tokenz')
             if (test === pass) {
                 setLoader(false)
             } else {
-                setTimeout(()=>router.push('/'),3000)
+                setTimeout(() => router.push('/'), 3000)
             }
         }
     }, [])
