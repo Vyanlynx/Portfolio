@@ -17,7 +17,7 @@ export default function YearsWrapper() {
     useEffect(() => findDateToday(), []);
     return (
         <div className='flex justify-center text-white p-8 text-sm'>
-            It's {dateState?.day}st of {dateState?.month} {dateState?.year}, am still wondering after graduation why I decided to become a web developer and obsessed with React.js.
+            It is {dateState?.day}st of {dateState?.month} {dateState?.year}, am still wondering after graduation why I decided to become a web developer and obsessed with React.js.
         </div>
     )
 }
