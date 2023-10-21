@@ -1,0 +1,24 @@
+{
+    "experience": [
+        {
+            "Year": 2023,
+            "designation": "Front end developer",
+            "description": "Currently working as a Front end developer for last few months, new learnings"
+        },
+        {
+            "Year": 2022,
+            "designation": "MERN Stack developer",
+            "description": "Currently working as a Front end developer for last few months, new learnings"
+        },
+        {
+            "Year": 2021,
+            "designation": "System Engineer",
+            "description": "Currently working as a Front end developer for last few months, new learnings"
+        },
+        {
+            "Year": 2020,
+            "designation": "Graduated",
+            "description": "Currently working as a Front end developer for last few months, new learnings"
+        }
+    ]
+}

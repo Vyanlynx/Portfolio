@@ -6,10 +6,10 @@
         {"name":"Planner", "label":"Simple Planner web app where data will store locally."}
     ],
     "Styles":{
-        "container":"cardContainer",
+        "container":"projectCardCont",
         "height":60,
         "width":60,
-        "contentLabel":"StackContentLabel",
-        "name":"contHead"
+        "contentLabel":"contentDetails",
+        "name":"projectName"
     }
 }

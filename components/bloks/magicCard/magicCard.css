@@ -1,0 +1,23 @@
+.magiccardContainer {
+    background-image: linear-gradient(to bottom, #051937, #0a1f40, #10244a, #162a53, #1c305d);
+    height: 250px;
+    width: 230px;
+    padding: 2em 1em;
+}
+.year{
+    font-size: 20pt;
+    font-weight: 600;
+    color: aqua;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.mdesig{
+    font-size: 14pt;
+    font-weight: 500;
+    padding: 0.5em 0;
+    color: aqua;
+}
+.mdesc{
+    font-size: 9pt;
+    font-weight: 300;
+    color: white;
+}

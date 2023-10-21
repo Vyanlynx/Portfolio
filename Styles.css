@@ -1,9 +1,20 @@
 .container {
     /* background-image: linear-gradient(to right top, #051937, #09162e, #0b1225, #0a0e1d, #070915); */
-    background-size: cover;
-    min-height: 100vh !important;
-    background-image: linear-gradient(to right top, #051021, #060e1e, #070d1b, #070b18, #070915);
+    /* background-size: cover; */
+    /* filter: brightness(40%); */
+    /* background-repeat: no-repeat; */
+    background-attachment: scroll;
+    /* height: 100vh !important; */
+    /* background-image: linear-gradient(to right top, #051021, #060e1e, #070d1b, #070b18, #070915); */
+    /* background-image: url('https://cdn.pixabay.com/photo/2012/02/29/16/00/abstract-19313_1280.jpg'); */
+    /* background-image: url('https://cdn.pixabay.com/photo/2023/10/09/12/08/winter-8303982_1280.jpg'); */
     /* background-image: url('https://wallpaperaccess.com/full/4635743.jpg'); */
     /* background-image: url('https://www.et-ilc.com/wp-content/uploads/2020/11/fast-worward.jpg'); */
     /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRASPHTn8uWuSJWk08BcGlu5clLj_XAwtPdqQ&usqp=CAU'); */
+    background-image: url('https://img.freepik.com/premium-photo/paper-cut-style-design-modern-dynamic-blue-color-wave-style-wallpaper-advertising-background_551880-973.jpg?w=1060');
+    
+    
+    
+    /* background-image: url('https://static.wixstatic.com/media/afe960_d2a6f22f3b49447cbe111c9d71e343a7~mv2.png/v1/fill/w_980,h_900,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/afe960_d2a6f22f3b49447cbe111c9d71e343a7~mv2.png'); */
+    /* background-image: url('https://static.wixstatic.com/media/afe960_3af464d0c47741d88a7057d68a76b479~mv2.png/v1/fill/w_980,h_900,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/afe960_3af464d0c47741d88a7057d68a76b479~mv2.png'); */
 }

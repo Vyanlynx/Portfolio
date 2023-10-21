@@ -8,7 +8,7 @@ import { useRouter } from 'next/navigation';
 const HeaderComponent = (): JSX.Element => {
     const [inputVal, setInputVal] = useState<string>('');
     const [showInputVal, setshowInputVal] = useState<any>(false);
-    const router = useRouter()
+    const router = useRouter();
     let errorMsg = false
     const verFunction = (e: any) => {
         setInputVal(e.target.value)

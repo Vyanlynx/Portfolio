@@ -16,6 +16,7 @@
 
 .cont1 {
     width: 70%;
+    /* filter: brightness(200%); */
 }
 
 :root {

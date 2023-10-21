@@ -1,0 +1,32 @@
+.cardProj {
+    display: flex;
+    align-items: center;
+    padding: 1em 0;
+    justify-content: space-evenly;
+}
+
+.cardDetails {
+    width: 20%;
+}
+
+.cRight {
+    flex-direction: row;
+}
+
+.cLeft {
+    flex-direction: row-reverse;
+}
+
+.projhdr {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 2% 0;
+    font-weight: 600;
+    font-size: 30px;
+}
+.projlabel{
+    font-size: 14px;
+}
+.viewdet{
+    font-size: 12px;
+    padding: 10% 0;
+}

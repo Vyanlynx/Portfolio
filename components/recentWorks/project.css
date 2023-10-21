@@ -1,0 +1,19 @@
+.projContainer {
+    color: white;
+    margin: 5em 3vw;
+
+}
+
+.projTitle {
+    margin: 0 9vw;
+    font-size: 1.8vw;
+    font-weight: 600;
+    color: aqua;
+}
+
+.projcards {
+    /* display: flex;
+    align-items: center;
+    flex-direction: column; */
+    margin: 3em 0;
+}
