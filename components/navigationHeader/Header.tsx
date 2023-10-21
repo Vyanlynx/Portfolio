@@ -31,7 +31,7 @@ const HeaderComponent = (): JSX.Element => {
                 </div>
             </header>
             <section className='flex justify-around items-center gap-20 text-sm'>
-                <nav>Projects</nav>
+                <nav><a href='#Projects'>Projects</a></nav>
                 <nav className='res'>
                     <div onClick={() => setshowInputVal(!showInputVal)}>Resume</div>
                     {showInputVal && <div className='tabbar'>
@@ -43,8 +43,8 @@ const HeaderComponent = (): JSX.Element => {
                         </div>
                     </div>}
                 </nav>
-                <nav>GitHub</nav>
-                <nav>Contact</nav>
+                <nav><a href='' target='_blank'>GitHub</a></nav>
+                {/* <nav> <a href='' target='_blank'>Contact</a></nav> */}
             </section>
         </div>
         {/* <Popup/> */}

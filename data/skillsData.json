@@ -1,0 +1,28 @@
+{
+    "frontend": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React.js",
+        "Redux",
+        "Next.js",
+        "Jest",
+        "React Testing Library"
+    ],
+    "backend": [
+        "Node.js",
+        "Express.js",
+        "Python",
+        "NextJS Auth"
+    ],
+    "database": [
+        "MongoDB",
+        "MySQL"
+    ],
+    "devops": [
+        "Bamboo",
+        "Jenkins",
+        "AWS",
+        "GIT"
+    ]
+}

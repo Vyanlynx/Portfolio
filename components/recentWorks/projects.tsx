@@ -10,7 +10,7 @@ import './project.css';
 export default function Projects() {
   const ProjImages = [MoonKartImg, VexorImg, MoonPhaseImg, PlannerImg]
   return (
-    <div className='projContainer'>
+    <div className='projContainer' id="Projects">
       <div className='projTitle'>#Latest Works</div>
       <div className='projcards'>
         {ProjectData?.projects?.map((elements: any, index: number) => {

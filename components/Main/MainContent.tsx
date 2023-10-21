@@ -5,7 +5,6 @@ import LinkedIn from '../../public/FrontPageIcons/linkedIn.svg'
 import Insta from '../../public/FrontPageIcons/insta.svg'
 import Indeed from '../../public/FrontPageIcons/indeed.svg'
 import Discord from '../../public/FrontPageIcons/discord.svg'
-import MainImg from '../../public/mainImg.png'
 import { useEffect, useState } from "react";
 
 export default function MainContent(props: any) {
@@ -29,24 +28,21 @@ export default function MainContent(props: any) {
                         </div>
                     </section>
                     <div style={{ overflow: "hidden" }}>
-                        {/* <div className="stack">{props.stack[devState]}</div> */}
                         <div className="stack2">{props.stack[devState]}</div>
                     </div>
                 </div>
                 <div className="stack90">{props.summary}</div>
                 <div className="py-1">
-                    <button className="shine-box">{props.connect}</button>
+                    <button className="shine-box">
+                    <a href='https://www.linkedin.com/in/raghul-reactdev/' target='_blank'>{props.connect}</a></button>
                 </div>
                 <div className="socialMedia45 flex gap-5 items-center">
                     <div style={{ fontSize: "14px" }}>{props.socialMedia}</div>
-                    <Image src={LinkedIn} height={25} width={25} alt="icon_socialMedia" title="LinkedIn" />
-                    <Image src={Insta} height={25} width={25} alt="icon_socialMedia" title="Instagram" />
-                    <Image src={Discord} height={28} width={28} alt="icon_socialMedia" title="Discord" />
-                    <Image src={Indeed} height={23} width={23} alt="icon_socialMedia" title="Indeed" />
+                    <a href='https://www.linkedin.com/in/raghul-reactdev/' target='_blank'><Image src={LinkedIn} height={25} width={25} alt="icon_socialMedia" title="LinkedIn" /></a>
+                    <a href='https://instagram.com/sometime_human?igshid=MzMyNGUyNmU2YQ==' target='_blank'><Image src={Insta} height={25} width={25} alt="icon_socialMedia" title="Instagram" /></a>
+                    <a href='https://discord.com/users/1093177670495383552' target='_blank'><Image src={Discord} height={28} width={28} alt="icon_socialMedia" title="Discord" /></a>
+                    <a href='mailto:raghulnishanth195@gmail.com?subject=Connect to Raghul' target='_blank'><Image src={Indeed} height={24} width={26} alt="icon_socialMedia" title="Mail" /></a>
                 </div>
-            </section>
-            <section className="cont2">
-                {/* <Image src={MainImg} height={350} alt="dev"/> */}
             </section>
         </div>
     )

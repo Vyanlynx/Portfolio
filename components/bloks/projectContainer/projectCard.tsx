@@ -7,12 +7,16 @@ export default function ProjectCard({ data, icon, style_, index }: any) {
     return (
         <div className={"cardProj " + `${index ? "cRight" : "cLeft"}`}>
             <div className='cardDetails'>
-                <div className='projhdr'>{data?.name}</div>
+                <div className='projhdr'>
+                    <a href={data?.link} target="_blank">{data?.name}</a>
+                </div>
                 <div className='projlabel'>{data?.label}</div>
-                <div className='viewdet'>View Details {'>'}</div>
+                {/* <div className='viewdet'>View Details {'>'}</div> */}
             </div>
             <div className='imgClass'>
-                <Image src={icon} alt="data" height={400} width={600} />
+                <a href={data?.link} target="_blank">
+                    <Image src={icon} alt={data?.name} height={400} width={600} />
+                </a>
             </div>
         </div>
     )

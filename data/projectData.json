@@ -1,15 +1,31 @@
 {
-    "projects":[
-        {"name":"Moonkartz", "label":"An full stack e-commerce prototype web application."},
-        {"name":"Vexor", "label":"A Front end ticket booking web application."},
-        {"name":"Moonphasecalculator", "label":"Front end app to find the phase of the Moon in past, present or future."},
-        {"name":"Planner", "label":"Simple Planner web app where data will store locally."}
+    "projects": [
+        {
+            "name": "Moonkartz",
+            "label": "An full stack e-commerce prototype web application.",
+            "link":"https://moonkartz.netlify.app/"
+        },
+        {
+            "name": "Vexor",
+            "label": "A Front end ticket booking web application.",
+            "link":"https://vexorr.netlify.app/"
+        },
+        {
+            "name": "Moonphasecalculator",
+            "link":"https://moonphasecalculator.netlify.app/",
+            "label": "Front end app to find the phase of the Moon in past, present or future."
+        },
+        {
+            "name": "Planner",
+            "link":"https://plannertodo.netlify.app/",
+            "label": "Simple Planner web app where data will store locally."
+        }
     ],
-    "Styles":{
-        "container":"projectCardCont",
-        "height":60,
-        "width":60,
-        "contentLabel":"contentDetails",
-        "name":"projectName"
+    "Styles": {
+        "container": "projectCardCont",
+        "height": 60,
+        "width": 60,
+        "contentLabel": "contentDetails",
+        "name": "projectName"
     }
 }

@@ -30,3 +30,6 @@
     font-size: 12px;
     padding: 10% 0;
 }
+.imgClass:hover{
+    scale: 110%;
+}

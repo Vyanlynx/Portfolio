@@ -1,0 +1,33 @@
+.skillContainer{
+    color: white;
+    padding-bottom: 5em;
+}
+.bdgecont{
+    /* border: 2px solid rgb(117, 247, 203); */
+    background-color: rgb(15, 121, 61);
+    padding: 3px 5px;
+    border-radius: 5px;
+    font-size: 13px;
+}
+.titlehdr{
+    padding-left: 10em;
+    padding: 0 0 0.5em 8.5em;
+    /* margin: 0 9vw; */
+    font-size: 1.5vw;
+    font-weight: 600;
+    color: aqua;
+}
+.feend{
+    width: 300px;
+}
+.feBadges{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    gap:5px;
+}
+.hdrskills{
+    padding: 0.6em 0;
+    font-size: 17px;
+    font-weight: 600;
+}
