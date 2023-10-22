@@ -10,14 +10,15 @@ import YearsWrapper from '@/components/wonder/yearsWrapper';
 import { useEffect, useState } from 'react';
 import Footer from '@/components/Footer/footer';
 const Page = () => {
-    const [viewState, setViewState] = useState(false)
+    const [viewState, setViewState] = useState("loader")
     useEffect(() => {
         if (window) {
-            setViewState(window.innerWidth < 768 ? false : true)
+            setViewState(window.innerWidth < 768 ? "mobile" : "desktop")
         }
     }, [])
     return (<div>
-        {viewState ? <div className='container'>
+        {viewState === "loader" ? <div>Loading!!!</div> : null}
+        {viewState === "desktop" ? <div className='container'>
             <HeaderComponent />
             <MainContent {...MainData} />
             <Skills />
@@ -25,12 +26,13 @@ const Page = () => {
             <YearsWrapper />
             <Projects />
             <Footer />
-        </div> : <div className='mobileError'>
+        </div> : null}
+        {viewState === "mobile" ? <div className='mobileError'>
             <div className='mobileViewCenter'>
                 <div>Hi, At this time, our current focus is on designing for desktop view, with mobile responsiveness under development.</div>
                 <div style={{ padding: "1em 0" }}>Please visit my portfolio in desktop or Tablet.</div>
             </div>
-        </div>}
+        </div> : null}
     </div>
 
     )

@@ -23,7 +23,7 @@ const HeaderComponent = (): JSX.Element => {
         }
     }
     return <>
-        <div className='text-white flex justify-around items-center py-10'>
+        <div className='text-white flex justify-around items-center py-10' style={{marginLeft:"-5em"}}>
             <header className='cursor-pointer'>
                 <div className='flex justify-around items-center gap-1'>
                     <Image height={32} width={32} src={IconImg} alt='Atom' />
