@@ -12,9 +12,24 @@
     /* background-image: url('https://www.et-ilc.com/wp-content/uploads/2020/11/fast-worward.jpg'); */
     /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRASPHTn8uWuSJWk08BcGlu5clLj_XAwtPdqQ&usqp=CAU'); */
     background-image: url('https://img.freepik.com/premium-photo/paper-cut-style-design-modern-dynamic-blue-color-wave-style-wallpaper-advertising-background_551880-973.jpg?w=1060');
-    
-    
-    
+
     /* background-image: url('https://static.wixstatic.com/media/afe960_d2a6f22f3b49447cbe111c9d71e343a7~mv2.png/v1/fill/w_980,h_900,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/afe960_d2a6f22f3b49447cbe111c9d71e343a7~mv2.png'); */
     /* background-image: url('https://static.wixstatic.com/media/afe960_3af464d0c47741d88a7057d68a76b479~mv2.png/v1/fill/w_980,h_900,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/afe960_3af464d0c47741d88a7057d68a76b479~mv2.png'); */
+}
+
+.mobileError {
+    /* background-color: aqua; */
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    height: 100vh !important;
+    font-size: 14px;
+    background-image: url('https://cdn.pixabay.com/photo/2023/10/09/12/08/winter-8303982_1280.jpg');
+}
+
+.mobileViewCenter {
+    background-color: transparent;
+    padding: 1em 3em;
+    backdrop-filter: blur(10px);
+    transform: translateY(200px);
 }
