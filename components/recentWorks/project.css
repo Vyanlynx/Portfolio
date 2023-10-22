@@ -6,14 +6,23 @@
 
 .projTitle {
     margin: 0 9vw;
-    font-size: 25px;
+    font-size: 23px;
     font-weight: 600;
     color: aqua;
+    padding: 1em 0 ;
 }
 
 .projcards {
-    /* display: flex;
-    align-items: center;
-    flex-direction: column; */
     margin: 3em 0;
+}
+.moreprojcontents{
+    font-size: 14px;
+    color: white;
+    font-weight: 400;
+    padding: 0.5em;
+    cursor: pointer;
+}
+.moreProjtitle:hover{
+    color: rgb(194, 252, 242);
+    text-decoration: underline;
 }

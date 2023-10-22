@@ -43,7 +43,7 @@ const HeaderComponent = (): JSX.Element => {
                         </div>
                     </div>}
                 </nav>
-                <nav><a href='' target='_blank'>GitHub</a></nav>
+                <nav><a href='https://github.com/Vyanlynx' target='_blank'>GitHub</a></nav>
                 {/* <nav> <a href='' target='_blank'>Contact</a></nav> */}
             </section>
         </div>

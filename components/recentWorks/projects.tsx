@@ -19,6 +19,12 @@ export default function Projects() {
             style_={ProjectData?.Styles} index={index === 0 || index % 2 == 0 ? true : false} />)
         })}
       </div>
+      <div className='projTitle'>
+        <div style={{paddingBottom:"0.8em"}}> More Projects</div>
+        {ProjectData?.moreProjects?.map((elements: any, index: number) => {
+          return (<div className='moreprojcontents' title="Click to visit">{index + 1}. <a className='moreProjtitle' href={elements?.link} target='_blank'>{elements?.name}</a> - {elements?.label}</div>)
+        })}
+      </div>
     </div>
   )
 }
