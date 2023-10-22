@@ -24,7 +24,7 @@ export default function Skills() {
     )
 }
 
-const Badge = ({ data_ }: any) => {
+export const Badge = ({ data_ }: any) => {
     return (
         <span className='bdgecont'>
             {data_}

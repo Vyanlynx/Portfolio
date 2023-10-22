@@ -8,7 +8,8 @@ import '../Styles.css';
 import Experience from '@/components/Experience/experience';
 import YearsWrapper from '@/components/wonder/yearsWrapper';
 import { useEffect, useState } from 'react';
-const page = () => {
+import Footer from '@/components/Footer/footer';
+const Page = () => {
     const [viewState, setViewState] = useState(false)
     useEffect(() => {
         if (window) {
@@ -23,16 +24,16 @@ const page = () => {
             <Experience />
             <YearsWrapper />
             <Projects />
+            <Footer />
         </div> : <div className='mobileError'>
             <div className='mobileViewCenter'>
                 <div>Hi, At this time, our current focus is on designing for desktop view, with mobile responsiveness under development.</div>
-                <div style={{padding:"1em 0"}}>Please visit my portfolio in desktop or Tablet.</div>
+                <div style={{ padding: "1em 0" }}>Please visit my portfolio in desktop or Tablet.</div>
             </div>
-
         </div>}
     </div>
 
     )
 }
 
-export default page;
+export default Page;

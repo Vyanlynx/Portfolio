@@ -13,7 +13,7 @@
     padding-left: 10em;
     padding: 0 0 0.5em 8.5em;
     /* margin: 0 9vw; */
-    font-size: 1.5vw;
+    font-size: 25px;
     font-weight: 600;
     color: aqua;
 }
@@ -21,7 +21,6 @@
     width: 300px;
 }
 .feBadges{
-    /* border: 2px solid red; */
     display: flex;
     flex-wrap: wrap;
     gap:5px;
