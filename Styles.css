@@ -24,7 +24,7 @@
     background-repeat: no-repeat;
     height: 100vh !important;
     font-size: 14px;
-    background-image: url('https://cdn.pixabay.com/photo/2023/10/09/12/08/winter-8303982_1280.jpg');
+    background-image: url('./public/winter.jpg');
 }
 
 .mobileViewCenter {
