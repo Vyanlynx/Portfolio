@@ -20,8 +20,9 @@ const Page = () => {
             setViewState(window.innerWidth < 768 ? "mobile" : "desktop")
         }
     }
-    window.onresize = heightCalc;
-    
+    if(window)  window.onresize = heightCalc;
+
+
     return (<div>
         {viewState === "loader" ? <div>Loading!!!</div> : null}
         {viewState === "desktop" ? <div className='container'>
