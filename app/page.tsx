@@ -15,12 +15,14 @@ const Page = () => {
     useEffect(() => {
         heightCalc()
     }, [])
+
     function heightCalc() {
-        if (window) {
-            setViewState(window.innerWidth < 768 ? "mobile" : "desktop")
-        }
+        setViewState(window.innerWidth < 768 ? "mobile" : "desktop")
     }
-    if(window)  window.onresize = heightCalc;
+    
+    if (viewState !== "loader" && typeof window !== undefined) {
+        window.onresize = heightCalc;
+    }
 
 
     return (<div>
