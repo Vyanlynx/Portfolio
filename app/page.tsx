@@ -10,12 +10,18 @@ import YearsWrapper from '@/components/wonder/yearsWrapper';
 import { useEffect, useState } from 'react';
 import Footer from '@/components/Footer/footer';
 const Page = () => {
-    const [viewState, setViewState] = useState("loader")
+    const [viewState, setViewState] = useState("loader");
+
     useEffect(() => {
+        heightCalc()
+    }, [])
+    function heightCalc() {
         if (window) {
             setViewState(window.innerWidth < 768 ? "mobile" : "desktop")
         }
-    }, [])
+    }
+    window.onresize = heightCalc;
+    
     return (<div>
         {viewState === "loader" ? <div>Loading!!!</div> : null}
         {viewState === "desktop" ? <div className='container'>
