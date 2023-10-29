@@ -1,5 +1,6 @@
 .container {
     background-attachment: scroll;
+    max-width: 100% !important;
     /* height: 100vh !important; */
     /* background-image: linear-gradient(to right top, #051021, #060e1e, #070d1b, #070b18, #070915); */
     /* background-image: url('https://cdn.pixabay.com/photo/2012/02/29/16/00/abstract-19313_1280.jpg'); */
