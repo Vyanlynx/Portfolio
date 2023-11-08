@@ -3,22 +3,22 @@
         {
             "Year": 2023,
             "designation": "Front end developer",
-            "description": "Currently working as a Front end developer for last few months, new learnings"
+            "description": "Currently working as a Front end developer for a telecom global leader in Europe."
         },
         {
             "Year": 2022,
-            "designation": "MERN Stack developer",
-            "description": "Currently working as a Front end developer for last few months, new learnings"
+            "designation": "Full Stack developer",
+            "description": "Worked as a JavaScript full stack developer for a multinational consumer goods company."
         },
         {
             "Year": 2021,
             "designation": "System Engineer",
-            "description": "Currently working as a Front end developer for last few months, new learnings"
+            "description": "Completed my trainings in Infosys as a Full Stack developer and got into project as a Full stack developer "
         },
         {
             "Year": 2020,
             "designation": "Graduated",
-            "description": "Currently working as a Front end developer for last few months, new learnings"
+            "description": "Got my Bachelors degree and learned Front end web development"
         }
     ]
 }
